@@ -1,6 +1,6 @@
-# RyxMC Pterodactyl Egg
+# PocketMine-MP Pterodactyl Egg
 
-Egg de Pterodactyl para servidores Minecraft Bedrock basados en PMMP/RyxMC.
+Egg de Pterodactyl para servidores Minecraft Bedrock basados en PocketMine-MP. Incluye PM4, PM5 y PM6; PM6 utiliza la compilación personalizada de RyxMC.
 
 ## Versiones disponibles
 

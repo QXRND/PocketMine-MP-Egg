@@ -1,13 +1,13 @@
 {
-  "_comment": "RyxMC Pterodactyl Egg - maintained by DevPapo",
+  "_comment": "PocketMine-MP Pterodactyl Egg - maintained by DevPapo",
   "meta": {
     "version": "PTDL_v2",
     "update_url": null
   },
   "exported_at": "2026-08-21T00:00:00-04:00",
-  "name": "RyxMC",
+  "name": "PocketMine-MP",
   "author": "admin@scon.host",
-  "description": "RyxMC Bedrock server egg with PM4, PM5 and PM6. PM6 uses the custom RyxMC 26.44 build. Support: https://discord.gg/qhUXn72rGB",
+  "description": "PocketMine-MP Bedrock server egg with PM4, PM5 and PM6. PM6 uses the custom RyxMC 26.44 build. Support: https://discord.gg/qhUXn72rGB",
   "features": null,
   "docker_images": {
     "ghcr.io/parkervcp/yolks:debian": "ghcr.io/parkervcp/yolks:debian"
