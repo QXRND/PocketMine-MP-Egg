@@ -10,6 +10,8 @@ Egg de Pterodactyl para servidores Minecraft Bedrock basados en **QXRND - Pocket
 | `PM5` | [QXRND/PocketMine-MP-PM5](https://github.com/QXRND/PocketMine-MP-PM5) | PHP 8.2 | [v5.44.5-qxrnd.8](https://github.com/QXRND/PocketMine-MP-PM5/releases/tag/v5.44.5-qxrnd.8) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM5/releases/download/v5.44.5-qxrnd.8/PocketMine-MP.phar) |
 | `PM6` | [QXRND/PocketMine-MP-PM6](https://github.com/QXRND/PocketMine-MP-PM6) | PHP 8.3 | [qxrnd-26.44](https://github.com/QXRND/PocketMine-MP-PM6/releases/tag/qxrnd-26.44) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM6/releases/download/qxrnd-26.44/PocketMine-MP.phar) |
 
+PM4 utiliza la API 4.26.0, Bedrock 1.26.44 y protocolo 2168. Su PHAR actualizado incluye la capa de compatibilidad de paquetes necesaria para la conexión del cliente y conserva el asset `PocketMine-MP.phar`.
+
 PM5 utiliza API 5.44.5, Bedrock 1.26.44 y protocolo 2168. Su PHAR reducido evita errores de espacio durante la descompresión inicial en Pterodactyl.
 
 PM6 corresponde a la distribución **QXRND - PocketMine-MP API 6.0.0**, compatible con Minecraft Bedrock **1.26.44** y protocolo **2168**. Su PHAR está reducido para disminuir el uso de disco durante la descompresión inicial en Pterodactyl.
@@ -28,7 +30,7 @@ Si una instalación anterior falló o el servidor conserva un PHAR antiguo, util
 
 ## Gamemode shortcuts
 
-PM5 and PM6 include the same quick gamemode commands:
+PM4, PM5 and PM6 include the same quick gamemode commands:
 
 | Command | Gamemode |
 |---|---|

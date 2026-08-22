@@ -7,7 +7,7 @@
   "exported_at": "2026-08-21T00:00:00-04:00",
   "name": "PocketMine-MP",
   "author": "admin@scon.host",
-  "description": "PocketMine-MP Bedrock server egg with PM4, PM5 and PM6. PM6 uses the custom QXRND - PocketMine-MP 26.44 build. Support: https://discord.gg/qhUXn72rGB",
+  "description": "PocketMine-MP Bedrock server egg with PM4, PM5 and PM6. PM4, PM5 and PM6 use QXRND distributions compatible with Bedrock 1.26.44. Support: https://discord.gg/qhUXn72rGB",
   "features": null,
   "docker_images": {
     "ghcr.io/parkervcp/yolks:debian": "ghcr.io/parkervcp/yolks:debian"
@@ -30,7 +30,7 @@
   "variables": [
     {
       "name": "Version to install",
-      "description": "Select PM4, PM5 or PM6. PM6 installs the custom QXRND - PocketMine-MP Bedrock 26.44 build.",
+      "description": "Select PM4, PM5 or PM6. PM4 installs QXRND PM4 for Bedrock 1.26.44, PM5 installs QXRND PM5 for Bedrock 1.26.44, and PM6 installs the custom QXRND PM6 build for Bedrock 1.26.44.",
       "env_variable": "VERSION",
       "default_value": "PM5",
       "user_viewable": true,
