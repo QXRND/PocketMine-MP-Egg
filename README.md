@@ -8,7 +8,7 @@ Egg de Pterodactyl para servidores Minecraft Bedrock basados en **QXRND - Pocket
 |---|---|---:|---|---|
 | `PM4` | [QXRND/PocketMine-MP-PM4](https://github.com/QXRND/PocketMine-MP-PM4) | PHP 8.1 | [v4.26.0-qxrnd.1](https://github.com/QXRND/PocketMine-MP-PM4/releases/tag/v4.26.0-qxrnd.1) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM4/releases/download/v4.26.0-qxrnd.1/PocketMine-MP.phar) |
 | `PM5` | [QXRND/PocketMine-MP-PM5](https://github.com/QXRND/PocketMine-MP-PM5) | PHP 8.2 | [v5.44.5-qxrnd.2](https://github.com/QXRND/PocketMine-MP-PM5/releases/tag/v5.44.5-qxrnd.2) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM5/releases/download/v5.44.5-qxrnd.2/PocketMine-MP.phar) |
-| `PM6` | [QXRND/PocketMine-MP-PM6](https://github.com/QXRND/PocketMine-MP-PM6) | PHP 8.3 | [qxrnd-26.44.6](https://github.com/QXRND/PocketMine-MP-PM6/releases/tag/qxrnd-26.44.6) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM6/releases/download/qxrnd-26.44.6/PocketMine-MP.phar) |
+| `PM6` | [QXRND/PocketMine-MP-PM6](https://github.com/QXRND/PocketMine-MP-PM6) | PHP 8.3 | [qxrnd-26.44.7](https://github.com/QXRND/PocketMine-MP-PM6/releases/tag/qxrnd-26.44.7) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM6/releases/download/qxrnd-26.44.7/PocketMine-MP.phar) |
 
 PM5 utiliza API 5.44.5, Bedrock 1.26.44 y protocolo 2168. Su PHAR reducido evita errores de espacio durante la descompresión inicial en Pterodactyl.
 
