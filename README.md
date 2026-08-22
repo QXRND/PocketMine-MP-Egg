@@ -26,6 +26,19 @@ La instalación descarga el binario PHP correspondiente, crea la ruta estándar 
 
 Si una instalación anterior falló o el servidor conserva un PHAR antiguo, utiliza **Reinstall Server** después de importar la versión actualizada del egg. Cambiar la variable y pulsar **Start** no vuelve a ejecutar el instalador.
 
+## Gamemode shortcuts
+
+PM5 and PM6 include the same quick gamemode commands:
+
+| Command | Gamemode |
+|---|---|
+| `gma` | Adventure |
+| `gmsp` | Spectator |
+| `gmc` | Creative |
+| `gms` | Survival |
+
+Each shortcut executes the corresponding `gamemode` command for the command sender and uses the normal gamemode permissions.
+
 ## Actualizaciones
 
 PM4 y PM5 consultan automáticamente el último release disponible en sus repositorios QXRND y buscan un asset llamado exactamente `PocketMine-MP.phar`. Para actualizar cualquiera de esas ramas, publica un nuevo release con ese nombre de asset.
