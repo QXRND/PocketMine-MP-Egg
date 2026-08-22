@@ -16,7 +16,7 @@ PM6 corresponde a la distribución **QXRND - PocketMine-MP API 6.0.0**, compatib
 
 ## Instalación en Pterodactyl
 
-En el panel de Pterodactyl, abre **Nests**, selecciona o crea el nest de Minecraft Bedrock y utiliza **Import Egg** para cargar [`egg-ryxmc.json`](./egg-ryxmc.json). Al crear el servidor, selecciona la variable **Version to install** y elige `PM4`, `PM5` o `PM6`.
+En el panel de Pterodactyl, abre **Nests**, selecciona o crea el nest de Minecraft Bedrock y utiliza **Import Egg** para cargar [`egg-pmmp.json`](./egg-pmmp.json). Al crear el servidor, selecciona la variable **Version to install** y elige `PM4`, `PM5` o `PM6`.
 
 La instalación descarga el binario PHP correspondiente, crea la ruta estándar `bin/php7/bin/php` y guarda el PHAR como `PocketMine-MP.phar`. El comando de inicio utilizado por el egg es:
 
@@ -43,7 +43,7 @@ Each shortcut executes the corresponding `gamemode` command for the command send
 
 PM4 y PM5 consultan automáticamente el último release disponible en sus repositorios QXRND y buscan un asset llamado exactamente `PocketMine-MP.phar`. Para actualizar cualquiera de esas ramas, publica un nuevo release con ese nombre de asset.
 
-PM6 utiliza el release fijado por el egg para mantener estable la distribución API 6.0.0 / Bedrock 1.26.44. Después de publicar una nueva versión PM6, actualiza la URL del release en `egg-ryxmc.json` y vuelve a importar el egg.
+PM6 utiliza el release fijado por el egg para mantener estable la distribución API 6.0.0 / Bedrock 1.26.44. Después de publicar una nueva versión PM6, actualiza la URL del release en `egg-pmmp.json` y vuelve a importar el egg.
 
 ## Soporte y autoría
 
