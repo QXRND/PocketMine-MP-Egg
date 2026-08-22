@@ -14,7 +14,7 @@ The Egg is an infrastructure distribution mechanism. It does not alter PocketMin
 |---|---:|---:|---:|---:|---|
 | `PM4` | 4.26.0 | 1.26.44 | 2168 | PHP 8.1 | [QXRND/PocketMine-MP-PM4](https://github.com/QXRND/PocketMine-MP-PM4/releases/latest) |
 | `PM5` | 5.44.5 | 1.26.44 | 2168 | PHP 8.2 | [QXRND/PocketMine-MP-PM5](https://github.com/QXRND/PocketMine-MP-PM5/releases/latest) |
-| `PM6` | 6.0.0 | 1.26.44 | 2168 | PHP 8.3 | [QXRND/PocketMine-MP-PM6](https://github.com/QXRND/PocketMine-MP-PM6/releases/tag/qxrnd-26.44) |
+| `PM6` | 6.0.0 | 1.26.44 | 2168 | PHP 8.3 | [QXRND/PMMP6-CLOSED](https://github.com/QXRND/PMMP6-CLOSED/releases/tag/qxrnd-26.44) |
 
 All published server assets use the exact filename `PocketMine-MP.phar`. PM4 and PM5 resolve the latest release asset from their respective repositories. PM6 is intentionally pinned to the stable `qxrnd-26.44` release so that production installations do not change implicitly.
 
@@ -60,7 +60,7 @@ The release policy is intentionally conservative. Small source and configuration
 PM4 and PM5 use the latest GitHub release endpoint and select the asset named `PocketMine-MP.phar`. PM6 uses an explicit release URL:
 
 ```text
-https://github.com/QXRND/PocketMine-MP-PM6/releases/download/qxrnd-26.44/PocketMine-MP.phar
+https://github.com/QXRND/PMMP6-CLOSED/releases/download/qxrnd-26.44/PocketMine-MP.phar
 ```
 
 When changing the PM6 release, update the pinned URL in `egg-pmmp.json`, commit the Egg change, re-import the Egg, and run **Reinstall Server**. A normal server restart will not download a new asset.
@@ -71,7 +71,7 @@ When changing the PM6 release, update the pinned URL in `egg-pmmp.json`, commit 
 |---|---|---|
 | PM4 | [`v4.26.0-qxrnd.3`](https://github.com/QXRND/PocketMine-MP-PM4/releases/tag/v4.26.0-qxrnd.3) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM4/releases/download/v4.26.0-qxrnd.3/PocketMine-MP.phar) |
 | PM5 | [`v5.44.5-qxrnd.8`](https://github.com/QXRND/PocketMine-MP-PM5/releases/tag/v5.44.5-qxrnd.8) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM5/releases/download/v5.44.5-qxrnd.8/PocketMine-MP.phar) |
-| PM6 | [`qxrnd-26.44`](https://github.com/QXRND/PocketMine-MP-PM6/releases/tag/qxrnd-26.44) | [`PocketMine-MP.phar`](https://github.com/QXRND/PocketMine-MP-PM6/releases/download/qxrnd-26.44/PocketMine-MP.phar) |
+| PM6 | [`qxrnd-26.44`](https://github.com/QXRND/PMMP6-CLOSED/releases/tag/qxrnd-26.44) | [`PocketMine-MP.phar`](https://github.com/QXRND/PMMP6-CLOSED/releases/download/qxrnd-26.44/PocketMine-MP.phar) |
 
 ## Repository layout
 
@@ -95,7 +95,7 @@ If a player cannot connect, inspect the server crash dump and confirm that the i
 |---|---|
 | PM4 source and distribution | [QXRND/PocketMine-MP-PM4](https://github.com/QXRND/PocketMine-MP-PM4) |
 | PM5 source and distribution | [QXRND/PocketMine-MP-PM5](https://github.com/QXRND/PocketMine-MP-PM5) |
-| PM6 source and distribution | [QXRND/PocketMine-MP-PM6](https://github.com/QXRND/PocketMine-MP-PM6) |
+| PM6 source and distribution | [QXRND/PMMP6-CLOSED](https://github.com/QXRND/PMMP6-CLOSED) |
 | Upstream lineage | [pmmp/PocketMine-MP](https://github.com/pmmp/PocketMine-MP) |
 | PHP binary distribution | [QXRND/PHP-Binaries](https://github.com/QXRND/PHP-Binaries) |
 | Technical support and invitation | [QXRND Discord](https://discord.gg/qhUXn72rGB) |
