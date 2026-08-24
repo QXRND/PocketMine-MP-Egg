@@ -42,7 +42,7 @@
       "name": "Disable ANSI output",
       "description": "Optional command-line flag. Use --disable-ansi to disable ANSI colors, or leave empty to keep ANSI output enabled.",
       "env_variable": "DISABLE_ANSI",
-      "default_value": "--disable-ansi",
+      "default_value": "",
       "user_viewable": true,
       "user_editable": true,
       "rules": "nullable|string|max:32",
