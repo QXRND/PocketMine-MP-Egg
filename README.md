@@ -13,7 +13,7 @@ The Egg is an infrastructure distribution mechanism. It does not alter PocketMin
 | Selector | API line | Bedrock target | Protocol | PHP runtime | Release source |
 |---|---:|---:|---:|---:|---|
 | `PM4` | 4.26.0 | 1.26.44 | 2168 | PHP 8.1 | [QXRND/PocketMine-MP-PM4](https://github.com/QXRND/PocketMine-MP-PM4/releases/latest) |
-| `PM5` | 5.44.5 | 1.26.51 | 2193 | PHP 8.2 | [QXRND/PocketMine-MP-PM5](https://github.com/QXRND/PocketMine-MP-PM5/releases/latest) |
+| `PM5` | 5.44.5 | 1.26.60 | 2225 | PHP 8.2 | [QXRND/PocketMine-MP-PM5](https://github.com/QXRND/PocketMine-MP-PM5/releases/latest) |
 | `PM6` | 6.0.0 | 1.26.44 | 2168 | PHP 8.3 | [QXRND/PocketMine-MP-PM6](https://github.com/QXRND/PocketMine-MP-PM6/releases/tag/qxrnd-26.44) |
 
 All published server assets use the exact filename `PocketMine-MP.phar`. PM4 and PM5 resolve the latest release asset from their respective repositories. PM6 is intentionally pinned to the stable `qxrnd-26.44` release so that production installations do not change implicitly.
